@@ -110,9 +110,9 @@ pushd $my_tmpd
   # Install dash
   #########################
 
-  git clone --depth 1 https://github.com/dashpay/dash
+  #git clone --depth 1 https://github.com/dashpay/dash
   #Or if you want to test the last updates :
-  #git clone https://github.com/dashpay/dash -b v0.12.2.x
+  git clone https://github.com/stashpayio/stash -b genesis_mike
 
   pushd dash
     ./autogen.sh
